@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="hi">
+    <meta name="author" content="M.D, Dellomes and Bootstrap contributors">
+    <meta name="generator" content="Sublime">
+    <link rel="shortcut icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/BTS_logo_%282017%29.png/1024px-BTS_logo_%282017%29.png"/>
+    <title>BTS Album</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
+
+    
+
+    
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: purple;
+        border:violet; rgba(0, 0, 0, .15);
+        border-width: 5px 5;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h1 class="text-white">About</h1>
+          <p class="text-muted"><h4>The album below is about a Kpop Boy Band named BTS from BigHit Entertainment<p> BTS means Bulletproof Boyscoucts in korean but they have recently changes their english name to Beyond the Scene.They have seven members (3 rappers and 4 vocalists) and debuted on June 12th, 2013.</h4></p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+        <strong>BTS album</strong>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">BTS</h1>
+        <p class="lead text-muted">BTS, also known as the Bangtan Boys, is a South Korean boy band formed in 2010. The band consists of Jin, Suga, J-Hope, RM, Jimin, V, and Jungkook, who co-write and co-produce the majority of their material.</p>
+      </div>
+    </div>
+  </section>
+  <div class="album py-5 bg-dark">
+    <div class=" content">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+             <div class="panel-body"><center><img src="https://ibighit.com/bts/images/bts/discography/2_cool_4_school/album-cover.jpg" class="img-responsive" style="width: 400px; height: 300px;" "background-color:purple ;" alt="Image"></center></div><text x="80%" y="50%" bg="#eceeef" dy=".3em"><h2><p style="color:purple;">2 cool 4 skool</h2></text>
+            <div class="card-body">
+              <p class="card-text">2 Cool 4 Skool is the debut single album released by South Korean boy band BTS on June 12, 2013 through Big Hit Entertainment and distributed by Loen. <p> The album was supported by the singles "No More Dream" and "We Are Bulletproof Pt.2"</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="panel-body"><center><img src="https://ibighit.com/bts/images/bts/discography/dark_and_wild/album-cover.jpg" class="img-responsive" style="width: 400px; height: 300px;" "background-color:purple ;" alt="Image"></center></div><text x="50%" y="50%" bg="#eceeef" dy=".3em"><h2><p style="color:lightsalmon;">Dark and Wild</h2></text>
+            <div class="card-body">
+              <p class="card-text">Dark & Wild is the debut studio album of South Korean boy group BTS. It was released by Big Hit Entertainment on August 20, 2014.<p>The album contains fourteen tracks, with "Danger" as its lead single. The third track on the album, "War of Hormone", was later promoted as a secondary single.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="panel-body"><center><img src="https://upload.wikimedia.org/wikipedia/en/3/3f/BTS%2C_Wings.jpg" class="img-responsive" style="width:400px; height:300px;" alt="Image"></center></div><text x="50%" y="50%" fill="#eceeef" dy=".3em"><h2>Wings</h2></text></svg>
+            <div class="card-body">
+              <p class="card-text">Wings is the second Korean studio album by South Korean boy band BTS. The album was released on October 10, 2016, by Big Hit Entertainment. It is available in four versions and contains fifteen tracks, with "Blood Sweat & Tears" serving as its lead single.</p>
+              <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <div class="panel-body"><center><img src="https://ibighit.com/bts/images/bts/discography/love_yourself-tear/album-cover.jpg" class="img-responsive" style="width:400px; height:300px;" alt="Image"></center></div><text x="50%" y="50%" fill="#eceeef" dy=".3em"><h2><p style="color: mediumpurple;">Love Yourself Tear</h2></text></svg>           
+            <div class="card-body">
+              <p class="card-text">Love Yourself 轉 Tear is the third Korean-language studio album by South Korean boy band BTS. The album was released on May 18, 2018, by Big Hit Entertainment.<p>It is available in four versions and contains eleven tracks, with "Fake Love" as its lead single.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="panel-body"><center><img src="https://ibighit.com/bts/images/bts/discography/map_of_the_soul-7/img01.jpg" class="img-responsive" style="width:400px; height:300px;" alt="Image"></center></div><text x="50%" y="50%" fill="#eceeef" dy=".3em"><h2><p style="color: blue;">Map of Soul 7</p></h2></text>
+            <div class="card-body">
+              <p class="card-text">Map of the Soul: 7 is the fourth Korean-language studio album by South Korean boy band BTS. The album was released on February 21, 2020, by Big Hit Entertainment. <p>It is the follow-up to their 2019 extended play Map of the Soul: Persona, with five of its songs appearing on the album.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="panel-body"><center><img src="https://upload.wikimedia.org/wikipedia/en/6/6f/BTS_Proof_album_cover_art.jpg" class="img-responsive" style="width:400px; height:300px;" alt="Image"></center></div><text x="50%" y="50%" fill="#eceeef" dy=".3em"><h2><p style="color: lightpink;">Proof</p></h2></text>
+            <div class="card-body">
+              <p class="card-text">Proof is the first anthology album released by South Korean group BTS, on June 10, 2022, through Big Hit Music.<p>The 3-disc project comprises several of the band's singles through the years; a selection of discography "favorites" chosen by the band members.</p>
+              <div class="d-flex justify-content-between align-items-center">
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+    <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="/docs/5.3/getting-started/introduction/">getting started guide</a>.</p>
+  </div>
+</footer>
+
+
+    <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+      
+  </body>
+</html>
